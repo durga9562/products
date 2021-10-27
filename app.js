@@ -32,8 +32,7 @@ const convertDbObjectToResponseObject = (dbObject) => {
   return {
     productId: dbObject.product_id,
     productName: dbObject.product_name,
-    jerseyNumber: dbObject.jersey_number,
-    role: dbObject.role,
+    itemNumber: dbObject.item_number,
   };
 };
 
