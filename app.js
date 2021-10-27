@@ -71,7 +71,7 @@ app.post("/products/", async (request, response) => {
   VALUES
     ('${productName}', ${itemNumber};`;
   const product = await database.run(postProductQuery);
-  response.send("Product Added to Team");
+  response.send("Product Added to item");
 });
 
 app.put("/products/:productId/", async (request, response) => {
